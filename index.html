@@ -1,24 +1,12 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Timer!</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-  </head>
-  <body>
-    <div class="timerlook">
-        <nav class="controls">
-          <a href="#" class="button" id="start">Start</a> 
-          <a href="#" class="button" id="stop">Stop</a>
-          <a href="#" class="button" id="reset">Reset</a>
-          <a href="#" class="button" id="round">Round</a> <!-- Zaznacza wynik i przkazuje do lisy czasów -->
-          <a href="#" class="button" id="clear">Clear</a> <!-- Resetuje listę czasów -->
-        </nav>
-        <div class="stopwatch"></div>
-    </div>
-    <div id = "times">
-      <ul id="results"></ul>
-    </div>
-    <script type="text/javascript" src="script-compiled.js"></script>
-  </body>
+<!doctype html>
+<html lang="pl">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <div id="root"></div>
+    <script src="https://unpkg.com/react@15/dist/react.min.js"></script>
+    <script src="https://unpkg.com/react-dom@15/dist/react-dom.min.js"></script>
+    <script src="./script-compiled.js"></script>
+</body>
 </html>
