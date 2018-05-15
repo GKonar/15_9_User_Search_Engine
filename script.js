@@ -34,6 +34,7 @@ class App extends React.Component {
             id="searchText" // id tego inputa tosearchText
            	onChange={event => this.onChangeHandle(event)}
             value={this.state.searchText}/>
+           <label className="enter"> and hit ENTER</label>
         </form>
         <UsersList users={this.state.users}/> 
       </div>

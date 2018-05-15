@@ -75,7 +75,12 @@ var App = function (_React$Component) {
             , onChange: function onChange(event) {
               return _this3.onChangeHandle(event);
             },
-            value: this.state.searchText })
+            value: this.state.searchText }),
+          React.createElement(
+            "label",
+            { className: "enter" },
+            " and hit ENTER"
+          )
         ),
         React.createElement(UsersList, { users: this.state.users })
       );
